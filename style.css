@@ -1,0 +1,39 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 1em;
+    line-height: 1.6;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  p {
+    margin-bottom: 1.5em;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 2em 0;
+  }
+
+  @media (max-width: 600px) {
+    body {
+      padding: 0.5em;
+    }
+  }
